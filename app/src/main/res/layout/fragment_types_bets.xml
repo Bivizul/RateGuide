@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparentGrey"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".presentation.typesbets.TypesBetsFragment">
+
+    <TextView
+        style="@style/Theme.RateGuide.FontTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingVertical="16dp"
+        android:text="@string/types_bets" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btBigAndSmall"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/big_and_small" />
+
+            <Button
+                android:id="@+id/btValueBets"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/value_bets" />
+
+            <Button
+                android:id="@+id/btWillfulVictory"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/willful_victory" />
+
+            <Button
+                android:id="@+id/btAssist"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist" />
+
+            <Button
+                android:id="@+id/btDoubleChance12"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/double_chance_12" />
+
+            <Button
+                android:id="@+id/btLongTerm"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/long_term" />
+
+            <Button
+                android:id="@+id/btIndividual"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/individual" />
+
+            <Button
+                android:id="@+id/btIndividualTotal"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/individual_total" />
+
+            <Button
+                android:id="@+id/btCoefficients"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coefficient" />
+
+            <Button
+                android:id="@+id/btCashout"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cashout" />
+
+            <Button
+                android:id="@+id/btMargin"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/margin" />
+
+            <Button
+                android:id="@+id/btOnOut"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/on_out" />
+
+            <Button
+                android:id="@+id/btOnCorridor"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/on_corridor" />
+
+            <Button
+                android:id="@+id/btToStatistics"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/to_statistics" />
+
+            <Button
+                android:id="@+id/btBothToScore"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/both_to_score" />
+
+            <Button
+                android:id="@+id/btOrdinaries"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ordinaries" />
+
+            <Button
+                android:id="@+id/btLoadLine"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_line" />
+
+            <Button
+                android:id="@+id/btSystem"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/system" />
+
+            <Button
+                android:id="@+id/btTotal"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total" />
+
+            <Button
+                android:id="@+id/btTotalThreeWay"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total_three_way" />
+
+            <Button
+                android:id="@+id/btHandicap"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/handicap" />
+
+            <Button
+                android:id="@+id/btExpress"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/express" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

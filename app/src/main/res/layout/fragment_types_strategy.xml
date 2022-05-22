@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparentGrey"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".presentation.typesbets.TypesBetsFragment">
+
+    <TextView
+        style="@style/Theme.RateGuide.FontTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/strategy_bets" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btCatchUp"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/catch_up" />
+
+            <Button
+                android:id="@+id/btCorridor"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/corridor" />
+
+            <Button
+                android:id="@+id/btEvenOdd"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/even_odd" />
+
+            <Button
+                android:id="@+id/btLadder"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ladder" />
+
+            <Button
+                android:id="@+id/btMartingale"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/martingale" />
+
+            <Button
+                android:id="@+id/btPenalty"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penalty" />
+
+            <Button
+                android:id="@+id/btSurebets"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/surebets" />
+
+            <Button
+                android:id="@+id/btYellowCards"
+                style="@style/Theme.RateGuide.ButtonTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yellow_cards" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
