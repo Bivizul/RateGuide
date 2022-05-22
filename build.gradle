@@ -2,15 +2,15 @@ buildscript {
     ext {
         kotlin_version = '1.6.21'
         lifecycle_version = "2.4.1"
-        coroutines_version = "1.5.2"
+        coroutines_version = "1.6.1"
         room_version = "2.4.2"
         retrofit_version = "2.9.0"
         picasso_version = "2.71828"
         nav_version = "2.4.2"
     }
     repositories {
-        mavenCentral()
         google()
+        mavenCentral()
         gradlePluginPortal()
     }
     dependencies {
